@@ -1,6 +1,5 @@
 title: Lokete 
 iconURL: assets/default-icon.png
-theme: jekyll-theme-slate
 
 # for a clean URL
 permalink: :slug
