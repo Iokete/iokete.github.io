@@ -13,6 +13,16 @@ plugins:
  - jekyll-feed
  - jekyll-seo-tag
 
+exclude:
+  assets
+  _sass
+  .github
+  _includes/_includes/hyvor-talk-comments.html
+  _layouts
+  .github 
+  LICENSE.txt
+  screenshot.png
+
 ### comments & analytics
 hyvor_talk_website_id: 14
 google_analytics: UA-NNNNNNNN-N
