@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 ---
 
 ## Welcome
@@ -14,4 +14,4 @@ Hello! I'm **Jorge Moreno Cano**, a Cybersecurity Engineering student specializi
 
 ---
 # Get Started
-## You can navigate through the different pages in the header, or click [here](posts) to take a look to all the posts.
+## You can navigate through the different pages in the header, or scroll down to take a look to all the posts.
