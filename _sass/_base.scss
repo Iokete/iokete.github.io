@@ -47,21 +47,35 @@ ul, ol, dl, figure,
   margin-bottom: $spacing-unit / 2;
 }
 
-// wrapper
+// Custom width
 .wrapper {
-  max-width: calc(#{$content-width} - (#{$spacing-unit}));
+  max-width: calc(1400px - 30px);  /* Increased from 1200px to 1400px */
   margin-right: auto;
   margin-left: auto;
-  padding-right: $spacing-unit / 2;
-  padding-left: $spacing-unit / 2;
-  @extend %clearfix;
+  padding-right: 15px;
+  padding-left: 15px;
+}
 
-  @media screen and (min-width: $on-laptop) {
-    max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
+@media screen and (min-width: 800px) {
+  .wrapper {
+    max-width: calc(1400px - 60px); /* Adjusted for consistency with the new width */
+    padding-right: 30px;
+    padding-left: 30px;
   }
 }
+
+.wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+// Custom code tags 
+code:not(pre > code) {
+  background-color: #373737; /* Light grey background */
+  border-radius: 4px;
+}
+
 
 %clearfix:after {
   content: "";
