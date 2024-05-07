@@ -12,4 +12,4 @@ This portfolio serves as a dynamic showcase of my journey and achievements in th
 ## References
 
 - **Jekyll** : Used for the creation of the static page.
-- **jekyll-theme-leaf** : The theme that I used. [Github Link](https://github.com/supun-io/jekyll-theme-lea)
+- **jekyll-theme-leaf** : The theme that I used. [Github Link](https://github.com/supun-io/jekyll-theme-leaf)

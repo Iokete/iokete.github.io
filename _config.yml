@@ -1,6 +1,7 @@
 title: Lokete 
 iconURL: assets/default-icon.png
-date: 2024-07-05
+remote_theme: SupunKavinda/jekyll-theme-leaf
+
 # for a clean URL
 permalink: :slug
 
@@ -23,6 +24,7 @@ exclude:
   screenshot.png
   README.md
   .gitignore
+  vendor
   
 
 ### comments & analytics
