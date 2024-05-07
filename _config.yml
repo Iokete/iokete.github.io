@@ -22,6 +22,9 @@ exclude:
   .github 
   LICENSE.txt
   screenshot.png
+  README.md
+  .gitignore
+  
 
 ### comments & analytics
 hyvor_talk_website_id: 14
