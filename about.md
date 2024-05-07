@@ -3,8 +3,13 @@ title: About
 layout: page
 ---
 
-Hey! This is the "Leaf" Jekyll theme created by <a rel="me" target="_blank" href="https://twitter.com/_SupunKavinda">Supun Kavinda</a>.
+### Welcome
 
-You can find the source code of this theme at <a href="https://github.com/SupunKavinda/jekyll-theme-leaf">Github</a>
+Hello! I'm **Jorge Moreno Cano**, a Cybersecurity Engineering student specializing in **binary and system exploitation**. This blog is where I share my journey through the intricate world of cybersecurity, with a particular focus on the technical nuances of exploiting systems.
 
-(Change this by editing `about.md` file)
+### What You'll Find Here
+
+- **CTF Insights**: Challenge reviews and writeups.
+- **Technique Tutorials**: In-depth analysis of exploitation techniques.
+- **Learning Progress**: Follow my learning curve as I uncover the secrets of effective system exploitation, sharing both successes and obstacles.
+
