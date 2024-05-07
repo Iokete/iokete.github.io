@@ -1,9 +1,8 @@
 ---
+title: 'University CTF 2023: Brains and Bytes'
 layout: page
 author: Jorge Moreno
 ---
-# University CTF 2023: Brains and Bytes
-
 
 [Link to the event](https://ctf.hackthebox.com/event/details/university-ctf-2023-brains-bytes-1231)
 
