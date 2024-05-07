@@ -14,17 +14,17 @@ plugins:
  - jekyll-seo-tag
 
 exclude:
-  assets
-  _sass
-  .github
-  _includes/_includes/hyvor-talk-comments.html
-  _layouts
-  .github 
-  LICENSE.txt
-  screenshot.png
-  README.md
-  .gitignore
-  vendor
+  - assets
+  - _sass
+  - .github
+  - _includes/_includes/hyvor-talk-comments.html
+  - _layouts
+  - .github 
+  - LICENSE.txt
+  - screenshot.png
+  - README.md
+  - .gitignore
+  - vendor
   
 
 ### comments & analytics
