@@ -2,7 +2,7 @@
 layout: home
 ---
 
-## Welcome
+---
 
 Hello! I'm **Jorge Moreno Cano**, a Cybersecurity Engineering student specializing in **binary and system exploitation**. This blog is where I share my journey through the intricate world of cybersecurity, with a particular focus on the technical nuances of exploiting systems.
 
