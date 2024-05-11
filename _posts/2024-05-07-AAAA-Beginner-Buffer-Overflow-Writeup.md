@@ -2,10 +2,10 @@
 layout: post
 author: Jorge Moreno
 ---
+This challenge is part of an introductory CTF course organized by students of Universidad Rey Juan Carlos.
 
 ## Challenge Description
-
-This challenge is part of an introductory CTF course organized by students of Universidad Rey Juan Carlos.
+---
 
 > ¡Ups! Parece que me he olvidado una opción que no debería aparecer en el programa que he creado como cliente de correo. Menos mal que es super seguro, ¿a que sí?
 > 
