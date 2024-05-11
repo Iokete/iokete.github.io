@@ -88,9 +88,9 @@ To leverage the attack we will do the next steps:
 
 1. Allocate a first chunk to trigger the overflow to corrupt the top chunk size
 2. Calculate the distance between the top chunk (`heap_leak + 0x20`) and the address we want to write - 0x20 (we substract 32 bytes because of the first 0x20 bytes before user data)
-3. `malloc` a second time to store the string ‘**/bin/sh\x00**’ to use it later as a parameter to the `system` function and to move the top chunk to the address `__malloc_hook - 0x20`.
-4. `malloc` **a third time to write the system address leak that we had into `__malloc_hook`.
-5. And `malloc` the last time passing as a parameter the address where we stored the **/bin/sh** string to get our shell. 
+3. `malloc` a second time to store the string ``/bin/sh\x00`` to use it later as a parameter to the `system` function and to move the top chunk to the address `__malloc_hook - 0x20`.
+4. `malloc` a third time to write the system address leak that we had into `__malloc_hook`.
+5. And `malloc` the last time passing as a parameter the address where we stored the ``/bin/sh`` string to get our shell. 
 
 ---
 
@@ -113,7 +113,7 @@ io.interactive()
 
 ![Untitled](images/house-of-force/Untitled%201.png)
 
-After that we calculate the distance between `__malloc_hook` and `heap + 0x20` to allocate enough memory and store the **/bin/sh** string.
+After that we calculate the distance between `__malloc_hook` and `heap + 0x20` to allocate enough memory and store the ``/bin/sh`` string.
 
 ```python
 [...]
