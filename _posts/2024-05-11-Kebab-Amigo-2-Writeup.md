@@ -8,15 +8,11 @@ This challenge is part of an introductory CTF course organized by students of Un
 ---
 
 > Lo de siempre no amigo?
-> 
-> 
-> Challenge Author(s): [DiegoAltF4](https://twitter.com/Diego_AltF4), [Dbd4](https://twitter.com/t0ct0u)
-> 
-> Category: **Binary Explotation**
-> 
-> Difficulty: **Easy**
-> 
-> Challenge Files: [kebab_amigo2.zip](images/kebab-amigo-2/kebab_amigo2.zip)
+   
+Challenge Author(s): [DiegoAltF4](https://twitter.com/Diego_AltF4), [Dbd4](https://twitter.com/t0ct0u)  
+Category: **Binary Explotation**  
+Difficulty: **Easy**  
+Challenge Files: [kebab_amigo2.zip](images/kebab-amigo-2/kebab_amigo2.zip)
 
 
 
@@ -90,7 +86,7 @@ Each one of the options populate or modify the fields in ``kebab_amigo``
 
 There’s also a function called ``banhos_turcos()``, it is not called explicitly in the program, but it is defined. We will see it now.
 
-I will link the source code at the end of the post, but now I will only show the C code we are interested in. 5. ``baklava()``, 4. ``durum_doble()`` and ``banhos_turcos``.
+I will link the source code at the start of the post, but now I will only show the functions we are interested in.  ``5. baklava()``,  ``4. durum_doble()`` and ``banhos_turcos()``.
 
 ```c
 void baklava()
@@ -100,7 +96,6 @@ void baklava()
 
     scanf("%ld", &kebab_amigo.saldo_caja);
 }
-
 ```
 
 We can see in this code snippet that it uses `scanf("%ld", [...])` . This text from the [manpage](https://linux.die.net/man/3/scanf) says: 
@@ -319,7 +314,7 @@ To get the address of ``/bin/sh\x00`` we can use pwntools utilities ``next(libc.
 
 The string will be in `libc.address + 0x19604f` 
 
-```bash
+```python
 def shell():
     buf = b'A' * PADDING
     buf += flat(POP_RDI) + flat(next(libc.search(b'/bin/sh\x00')))
