@@ -17,9 +17,8 @@ layout: default
       <div class="post-list">
         {%- for post in posts -%}
           <a class="post-link" href="{{ post.url | relative_url }}">
-            <h3">{{ post.title | escape }}</h3>
-            <br>
-            <p style="color: #c0c0c0;">{{ post.date | date: "%d %B %Y" }}</p>
+            <h3>{{ post.title | escape }}</h3>
+            <p style="color: #c3c3c3; " >Publised by <span style="font-weight: bold; color: #88bb48">lokete</span> on {{ post.date | date: "%d %B %Y" }}</p>
           </a>
         {%- endfor -%}
       </div>
