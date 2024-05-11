@@ -120,7 +120,7 @@ struct kebab_amigo_t{
 } kebab_amigo;
 ```
 
-``void (*destructor)()`` is right after ``saldo_caja``, meaning that if we send an 8 byte value to ``baklava´´, it will populate its first 4 bytes into ``saldo_caja`` and the other 4 inside ``void(*destructor)()``. But when or how is this function called?
+``void (*destructor)()`` is right after ``saldo_caja``, meaning that if we send an 8 byte value to ``baklava()``, it will populate its first 4 bytes into ``saldo_caja`` and the other 4 inside ``void(*destructor)()``. But when or how is this function called?
 
 This is our ``main()`` function: 
 
