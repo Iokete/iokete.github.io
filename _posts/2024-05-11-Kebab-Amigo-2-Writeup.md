@@ -101,13 +101,13 @@ void baklava()
 We can see in this code snippet that it uses `scanf("%ld", [...])` . This text from the [manpage](https://linux.die.net/man/3/scanf) says: 
 
 > [...]  
-> ***l***
-> 
-> 
-> *Indicates either that the conversion will be one of **d**, **i**, **o**, **u**, **x**, **X**, or **n** and the next pointer is a pointer to a long int or unsigned long int (rather than int), or that the conversion will be one of **e**, **f**, or **g** and the next pointer is a pointer to double (rather than float). Specifying two **l** characters is equivalent to **L**. If used with **%c** or **%s** the corresponding parameter is considered as a pointer to a wide character or wide-character string respectively.*  
+>
+> ***l***  
+> *Indicates either that the conversion will be one of **d**, **i**, **o**, **u**, **x**, **X**, or **n** and the next pointer is a pointer to a long int or unsigned long int (rather than int), or that the conversion will be one of **e**, **f**, or **g** and the next pointer is a pointer to double (rather than float).*
+>
 > [...]
 
-The function is expecting a long double number (8 bytes). And storing it inside ``kebab_amigo.saldo_caja`` which is an integer (4 bytes).
+The function is expecting a long double (8 bytes), and stores it inside ``kebab_amigo.saldo_caja`` which is an integer (4 bytes).
 
 Recalling to the struct ``kebab_amigo_t``
 
@@ -120,7 +120,7 @@ struct kebab_amigo_t{
 } kebab_amigo;
 ```
 
-``void (destructor)()`` is right after ``saldo_caja``, meaning that if we send an 8 byte value to ``baklava´´, it will populate its first 4 bytes into ``saldo_caja`` and the other 4 inside ``void(*destructor)()``. But when or how is this function called?
+``void (*destructor)()`` is right after ``saldo_caja``, meaning that if we send an 8 byte value to ``baklava´´, it will populate its first 4 bytes into ``saldo_caja`` and the other 4 inside ``void(*destructor)()``. But when or how is this function called?
 
 This is our ``main()`` function: 
 
