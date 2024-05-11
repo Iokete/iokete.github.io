@@ -4,7 +4,7 @@ layout: post
 author: Jorge Moreno
 ---
 
-This challenge comes from [HackTheBox University CTF 2023: Brains & Bytes](../htb-bb-2023-ctf)
+This challenge is part of the event [HackTheBox University CTF 2023: Brains & Bytes](../htb-bb-2023-ctf)
 
 ## Challenge Description
 

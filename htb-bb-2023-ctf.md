@@ -1,6 +1,6 @@
 ---
 title: 'University CTF 2023: Brains and Bytes'
-layout: page
+layout: hidden
 author: Jorge Moreno
 ---
 
