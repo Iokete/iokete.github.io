@@ -7,7 +7,7 @@ This challenge is part of an introductory CTF course organized by students of Un
 ## Challenge Description
 ---
 
-> **Lo de siempre no amigo?**
+> Lo de siempre no amigo?
 > 
 > 
 > Challenge Author(s): [DiegoAltF4](https://twitter.com/Diego_AltF4), [Dbd4](https://twitter.com/t0ct0u)
