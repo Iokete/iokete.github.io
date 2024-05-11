@@ -122,7 +122,7 @@ malloc(diff, b'/bin/sh\0')
 io.interactive()
 ```
 
-Let's visualize it now with pwndbg. Because we allocated a lot of bytes we will now dump memory with `dq &mp_.sbrk_base`. Because `vis` will be bugged. The bytes `0x0068732f6e69622f` are the string **`/bin/sh`**
+Let's visualize it now with pwndbg. Because we allocated a lot of bytes we will now dump memory with `dq &mp_.sbrk_base`. Because `vis` will be bugged. The bytes `0x0068732f6e69622f` are the string `/bin/sh`
 
 ![Untitled](images/house-of-force/Untitled%202.png)
 
