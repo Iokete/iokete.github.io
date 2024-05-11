@@ -31,7 +31,7 @@ The first thing we see after executing the vulnerable binary is the following te
 
 It prompts us for a number 1 or 0. After that it receives an input of 2 bytes from stdin.
 
-Lets begin with with the decompiling.
+Let's begin with with the decompiling.
 
 ```c
 void main(void)

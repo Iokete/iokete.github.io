@@ -38,7 +38,7 @@ First, we check the file with `checksec` command.
 
 As we can see it doesn’t have PIE enabled but has stack protector and the No eXecute bit enabled.
 
-The libc version that it uses is 2.28, it is < 2.29 so it doesn’t have any security checks in the top chunk size. Now lets decompile the binary and see the code.
+The libc version that it uses is 2.28, it is < 2.29 so it doesn’t have any security checks in the top chunk size. Now let's decompile the binary and see the code.
 
 ```c
 undefined8 main(void)
@@ -122,7 +122,7 @@ malloc(diff, b'/bin/sh\0')
 io.interactive()
 ```
 
-Lets visualize now with pwndbg. Because we allocated a lot of bytes we will now dump memory with `dq &mp_.sbrk_base`. Because `vis` will be bugged. The bytes `0068732f6e69622f` are the string ****`/bin/sh`**.**
+Let's visualize it now with pwndbg. Because we allocated a lot of bytes we will now dump memory with `dq &mp_.sbrk_base`. Because `vis` will be bugged. The bytes `0x0068732f6e69622f` are the string **`/bin/sh`**
 
 ![Untitled](images/house-of-force/Untitled%202.png)
 
@@ -140,7 +140,7 @@ Now we have written the address of `system` inside the `__malloc_hook` so next t
 
 ![Untitled](images/house-of-force/Untitled%204.png)
 
-We just add now the following code to the script `malloc(heap_leak + 0x30, "")`and it will take the string `/bin/sh` ****as a parameter to the `system` function, thus giving us a shell.
+We just add now the following code to the script `malloc(heap_leak + 0x30, "")`and it will take the string `/bin/sh` as a parameter to the `system()` function, thus giving us a shell.
 
 ![Untitled](images/house-of-force/Untitled%205.png)
 

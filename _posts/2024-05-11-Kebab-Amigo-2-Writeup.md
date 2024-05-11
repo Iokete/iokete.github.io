@@ -41,7 +41,7 @@ chall: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, 
 
 There are no stack canaries, NX enabled (no shellcoding this time), and No PIE.
 
-Lets review the code. The first thing we encounter is this structure ``kebab_amigo_t``
+Let's review the code. The first thing we encounter is this structure ``kebab_amigo_t``
 
 ```c
 struct kebab_amigo_t{
@@ -176,7 +176,7 @@ void durum_doble()
 
 The other functions should work too, but with this one we can do it in one iteration with the line `kebab_amigo.rating += (_rating*2);`
 
-But what can we do with this? Well, we now have control over the pointer that the program is going to execute, we could do a lot of things, but with only 4 bytes to overwrite, the list of possible outcomes is smaller. Lets see ``banhos_turcos()``
+But what can we do with this? Well, we now have control over the pointer that the program is going to execute, we could do a lot of things, but with only 4 bytes to overwrite, the list of possible outcomes is smaller. Let's see ``banhos_turcos()``
 
 ```c
 void banhos_turcos(){
@@ -220,7 +220,7 @@ def durum_doble(buf):
     io.sendlineafter(b'>', buf)
 ```
 
-Our first payload should be the bytes we saw before, but as a long, so `0x400b37aaaaaaaa` (18026732223900330 in decimal), lets send this to the program and debug with GDB to see what happens.
+Our first payload should be the bytes we saw before, but as a long, so `0x400b37aaaaaaaa` (18026732223900330 in decimal), let's send this to the program and debug with GDB to see what happens.
 
 ```python
 pwndbg> dq &kebab_amigo 
