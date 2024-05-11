@@ -1,4 +1,5 @@
 ---
+title: "'AAAA' Challenge Writeup: Buffer Overflow Basics from URJC CTF Course"
 layout: post
 author: Jorge Moreno
 ---
@@ -10,7 +11,7 @@ This challenge is part of an introductory CTF course organized by students of Un
 > ¡Ups! Parece que me he olvidado una opción que no debería aparecer en el programa que he creado como cliente de correo. Menos mal que es super seguro, ¿a que sí?
 > 
 > 
-> Autor: [David Billhardt](https://twitter.com/DavidBillhardt)
+> Autor: [David Billhardt](https://twitter.com/t0ct0u)
 > 
 > Official Writeup: [AAAA.pdf](images/beginner-bof-wu/AAAA.pdf)
 > 

@@ -1,4 +1,5 @@
 ---
+title: "Kebab Amigo II - Writeup | URJC CTF Course"
 layout: post
 author: Jorge Moreno
 ---

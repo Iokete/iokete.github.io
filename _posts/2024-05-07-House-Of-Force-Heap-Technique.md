@@ -1,4 +1,5 @@
 ---
+title: "Exploring Heap Exploitation: The House of Force Technique"
 layout: post
 author: Jorge Moreno
 ---
