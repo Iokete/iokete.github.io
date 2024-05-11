@@ -1,11 +1,13 @@
 .home-box {
     padding:0;
     overflow:hidden;
+  
     .post-link {
         color: inherit;
         display:block;
         padding: $spacing-unit;
         transition: .3s background-color;
+        backdrop-filter: blur(35px);
         &:not(:last-child) {
             border-bottom:1px solid $header-color;
         }
