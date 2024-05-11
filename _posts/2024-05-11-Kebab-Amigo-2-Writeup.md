@@ -16,6 +16,7 @@ This challenge is part of an introductory CTF course organized by students of Un
 > 
 > Difficulty: **Easy**
 > 
+> Challenge Files: [kebab_amigo2.zip](images/kebab-amigo-2/kebab_amigo2.zip)
 
 
 
@@ -412,6 +413,5 @@ io.interactive()
 
 ```
 
-[kebab_amigo2.zip](images/kebab-amigo-2/kebab_amigo2.zip)
 
 **SOLVED - flag{c0m0_entra_un_kebab_enc1ma_kebab_chaval}**

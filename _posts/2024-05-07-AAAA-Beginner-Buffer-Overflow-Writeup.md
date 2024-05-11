@@ -18,6 +18,8 @@ This challenge is part of an introductory CTF course organized by students of Un
 > Category: **Binary Explotation**  
 >
 > Difficulty: **Very Easy**
+>
+> Challenge Files: [AAAA.zip](images/befinner-bof-wu/AAAA.zip)
 
 ## TL;DR
 
