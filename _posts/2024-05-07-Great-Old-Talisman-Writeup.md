@@ -1,5 +1,5 @@
 ---
-title: "Great Old Talisman Challenge Writeup: Memory Vulnerability - HackTheBox University CTF 2023: Brains & Bytes"
+title: "Great Old Talisman - Writeup | University CTF 2023: Brains & Bytes"
 layout: post
 author: Jorge Moreno
 ---
