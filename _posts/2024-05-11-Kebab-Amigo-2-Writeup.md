@@ -2,6 +2,7 @@
 title: "Kebab Amigo II - Writeup | URJC CTF Course"
 layout: post
 author: Jorge Moreno
+category: Easy
 ---
 This challenge is part of an [introductory CTF course](urjc-introductory-ctf) organized by students of Universidad Rey Juan Carlos.
 ## Challenge Description

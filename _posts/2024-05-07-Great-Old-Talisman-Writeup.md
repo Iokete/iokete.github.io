@@ -2,6 +2,7 @@
 title: "Great Old Talisman - Writeup | University CTF 2023: Brains & Bytes"
 layout: post
 author: Jorge Moreno
+category: Easy 
 ---
 
 This challenge is part of the event [HackTheBox University CTF 2023: Brains & Bytes](../htb-bb-2023-ctf)

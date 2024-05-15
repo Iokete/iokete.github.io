@@ -2,6 +2,7 @@
 title: "Sound of Silence - Writeup | Cyber Apocalypse 2024"
 layout: post
 author: Jorge Moreno
+category: Easy
 ---
 
 This challenge is part of the event [Cyber Apocalypse 2024: Hacker Royale](../cyber-apocalypse-ctf-2024)
